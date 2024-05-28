@@ -1,0 +1,61 @@
+.img-profile {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+
+.profile-image-container {
+    width: 8.8rem;
+    height: 8.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.profile-container {
+    width: 25.6rem;
+    height: 100%;
+    background-color: var(--dark-blue);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.profile-header {
+    padding: 3rem;
+    height: 70%;
+    background-color: var(--blue);
+    border-radius: 1rem;
+}
+
+.profile-prefix {
+    color: var(--pale-blue);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.profile-name {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.frequency-container {
+    width: 25.6rem;
+    height: 30%;
+    padding: 3rem;
+    color: var(--pale-blue);
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frequency-container p:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.selected {
+    color: var(--white);
+}
