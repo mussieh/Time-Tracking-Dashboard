@@ -1,6 +1,6 @@
 import "./NavigationCard.css";
-import profileImg from "../../assets/images/image-jeremy.png";
 import { frequencyValues } from "../../constants";
+import profileImage from "../../assets/images/image-jeremy.png";
 
 const NavigationCard = ({ frequency, onFrequencyChange }) => {
     return (
@@ -9,7 +9,7 @@ const NavigationCard = ({ frequency, onFrequencyChange }) => {
                 <div className="profile-image-container">
                     <img
                         className="img-profile"
-                        src={profileImg}
+                        src={profileImage}
                         alt="Jeremy Image"
                     />
                 </div>

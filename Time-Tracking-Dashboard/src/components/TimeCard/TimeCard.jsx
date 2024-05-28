@@ -39,27 +39,27 @@ const TimeCard = ({ frequency, cardData }) => {
         switch (cardData.title.toLowerCase()) {
             case timeCategory.WORK:
                 backgroundStyle.backgroundColor = "var(--light-orange)";
-                backgroundStyle.backgroundImage = `url(${workImg})`;
+                backgroundStyle.backgroundImage = `url(\"${workImg}\")`;
                 break;
             case timeCategory.STUDY:
                 backgroundStyle.backgroundColor = "var(--light-red)";
-                backgroundStyle.backgroundImage = `url(${studyImg})`;
+                backgroundStyle.backgroundImage = `url(\"${studyImg}\")`;
                 break;
             case timeCategory.SOCIAL:
                 backgroundStyle.backgroundColor = "var(--violet)";
-                backgroundStyle.backgroundImage = `url(${socialImg})`;
+                backgroundStyle.backgroundImage = `url(\"${socialImg}\")`;
                 break;
             case timeCategory.SELF_CARE:
                 backgroundStyle.backgroundColor = "var(--soft-yellow)";
-                backgroundStyle.backgroundImage = `url(${selfCareImg})`;
+                backgroundStyle.backgroundImage = `url(\"${selfCareImg}\")`;
                 break;
             case timeCategory.PLAY:
                 backgroundStyle.backgroundColor = "var(--soft-blue)";
-                backgroundStyle.backgroundImage = `url(${playImg})`;
+                backgroundStyle.backgroundImage = `url(\"${playImg}\")`;
                 break;
             case timeCategory.EXERCISE:
                 backgroundStyle.backgroundColor = "var(--lime-green)";
-                backgroundStyle.backgroundImage = `url(${exerciseImg})`;
+                backgroundStyle.backgroundImage = `url(\"${exerciseImg}\")`;
                 break;
         }
         return backgroundStyle;
